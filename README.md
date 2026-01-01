@@ -1,7 +1,7 @@
 # PIZZA HUT Analysis SQL PROJECT
-PROJECT OVERVIEW
+## PROJECT OVERVIEW
 
-PROJECT TITLE: PIZZA HUT Sales Analysis
+### PROJECT TITLE: PIZZA HUT Sales Analysis
 
 Database:
 
@@ -10,7 +10,7 @@ The main objective of this project is to demonstrate core SQL concepts such as d
 creation, data insertion, joins, aggregations, and analytical querying on a real-world
 business dataset.
 
-OBJECTIVES
+## OBJECTIVES
 
 1. Set up a PizzaHut sales database using multiple related tables.
 2. Load data into SQL tables using CSV files and SQL INSERT statements.
