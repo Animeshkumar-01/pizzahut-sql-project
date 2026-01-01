@@ -30,7 +30,7 @@ business dataset.
 
  Q2. Calculate the total revenue generated from pizza sales. 
 
-```sql
+
 SELECT 
     SUM(quantity) AS total_pizza_sold
 FROM
@@ -38,7 +38,7 @@ FROM
 
   Q3. Calculate the total revenue generated from pizza sales using pizza price and quantity sold. 
 
-```sql
+
 SELECT 
     ROUND(SUM(order_details.quantity * pizzas.price),
             2) AS total_revenue
