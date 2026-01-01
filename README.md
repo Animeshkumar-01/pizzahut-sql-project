@@ -20,7 +20,7 @@ business dataset.
 
 ## Data Analysis & Findings
 
-### Q1. Retrive the total number of order placed. 
+ Q1. Retrive the total number of order placed. 
 
 ```sql
    SELECT 
