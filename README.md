@@ -1,6 +1,8 @@
 # PIZZA HUT Analysis SQL PROJECT
 PROJECT OVERVIEW
+
 PROJECT TITLE: PIZZA HUT Sales Analysis
+
 Database:
 
 This project is a SQL-based sales analysis project built using a PizzaHut sales dataset.
