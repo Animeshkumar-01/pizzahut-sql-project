@@ -22,6 +22,7 @@ business dataset.
 
 ### Q1. Retrive the total number of order placed. 
 
+  '''sql 
    SELECT 
     COUNT(order_id)
   FROM
