@@ -18,5 +18,28 @@ business dataset.
 4. Analyze revenue, order trends, pizza categories, and popular pizza sizes.
 5. Strengthen understanding of joins, aggregate functions, and grouping operations.
 
+## Data Analysis & Findings
 
+### Q1. Retrive the total number of order placed. 
 
+   SELECT 
+    COUNT(order_id)
+  FROM
+    orders;
+
+### Q2. Calculate the total revenue generated from pizza sales. 
+
+SELECT 
+    SUM(quantity) AS total_pizza_sold
+FROM
+    order_details;
+
+ ### Q3. Calculate the total revenue generated from pizza sales using pizza price and quantity sold. 
+
+SELECT 
+    ROUND(SUM(order_details.quantity * pizzas.price),
+            2) AS total_revenue
+FROM
+    order_details
+        JOIN
+    pizzas ON pizzas.pizza_id = order_details.pizza_id;
