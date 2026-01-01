@@ -30,7 +30,7 @@ business dataset.
 
  Q2. Calculate the total revenue generated from pizza sales. 
 
-
+```sql
 SELECT 
     SUM(quantity) AS total_pizza_sold
 FROM
