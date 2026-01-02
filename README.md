@@ -1,9 +1,9 @@
-# PIZZA HUT Analysis SQL PROJECT
+# PIZZA HUT Sales Analysis SQL PROJECT
+
 ## PROJECT OVERVIEW
 
-### PROJECT TITLE: PIZZA HUT Sales Analysis
-
-Database:
+**PROJECT TITLE**: PIZZA HUT Sales Analysis
+**Database**: pizza_sales_db
 
 This project is a SQL-based sales analysis project built using a PizzaHut sales dataset.
 The main objective of this project is to demonstrate core SQL concepts such as database
@@ -172,3 +172,8 @@ JOIN
 orders on orders.order_id = order_details.order_id
 GROUP by orders.order_date) as sales;
 ```
+
+## Conclusion
+
+This project provides a comprehensive introduction to SQL for data analysis, covering database setup, exploratory data analysis, and business-focused SQL queries. 
+Through this project, key insights were derived by analyzing sales patterns, customer behavior, and product performance.
